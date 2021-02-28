@@ -1,0 +1,125 @@
+@import "./flex_stuff";
+@import "./toggle";
+// body {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     left: 0;
+//     bottom: 0;
+// }
+
+html,
+body {
+    background-color: #44bfd3;
+
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.section {
+    padding: 8px;
+    margin: 8px;
+    width: 200px;
+    @include flex-row;
+    @include align-center;
+
+    #header {
+        flex-grow: 2;
+    }
+
+    #switcher {
+        @include flex-row;
+        @include align-center;
+    }
+}
+
+.icon-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    outline: none;
+}
+
+.icon-btn.on {
+    background: #ffbfc1;
+
+    svg {
+        fill: #f55257;
+    }
+}
+
+.icon-btn.off {
+    background: #7ce3b3;
+
+    svg {
+        fill: #13a05f;
+    }
+}
+
+.icon-btn:hover {
+    .icon-btn-hint {
+        display: block;
+    }
+}
+
+.icon-btn-hint {
+    border-radius: 2px;
+    position: absolute;
+    right: 34px;
+    margin-right: 2px;
+    padding: 4px;
+    width: 80px;
+    text-align: center;
+    letter-spacing: 1.1px;
+    display: none;
+    font-size: 12px;
+    color: rgba(228, 228, 228, 0.932);
+    background: #104952;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#ads-header {
+    flex-grow: 2;
+}
+
+#theme-btns {
+    justify-content: space-between;
+    @include flex-row;
+    @include align-center;
+    flex-grow: 2;
+    margin-left: 12px;
+    span {
+        @include flex-row;
+        @include align-center;
+        justify-content: center;
+        border-radius: 2px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    span#default {
+        background-color: #f3f2ef;
+    }
+
+    span#dark-gray {
+        background-color: #38434f;
+    }
+
+    span#mauve {
+        background-color: #523a51;
+    }
+
+    span#camo {
+        background-color: #414335;
+    }
+}

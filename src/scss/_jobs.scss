@@ -1,0 +1,77 @@
+.jobs-top-applicant-jobs-container {
+    background: var(--jobs-premium) !important;
+}
+
+.jobs-description--is-truncated .jobs-description__container::after {
+    background: var(--gradient-jobs-1) !important;
+}
+
+.jobs-details-profinder-promo__member-card {
+    background: var(--custom-color-0) !important;
+}
+
+.theme--mercado .jobs-home-soho--mercado-theme {
+    background: var(--strengthen-profile) !important;
+}
+
+.jobs-premium-applicant-insights__meter-bar {
+    background: var(--custom-color-1) !important;
+}
+.jobs-premium-applicant-insights__meter-bar--highlight::after {
+    background: var(--color-text-muted) !important;
+}
+.publishing-post-status--success,
+.jobs-premium-applicant-insights__skill--matched {
+    color: var(--color-checked) !important;
+}
+
+.artdeco-pagination__indicator--number.selected button {
+    background: var(--voyager-color-background-container-tint-2) !important;
+}
+
+.interview-prep-two-rail__left-rail-header {
+    border-bottom: 1px solid var(--color-border-faint) !important;
+}
+
+.interview-prep-assessments__question-list-item:first-child .interview-prep-question-list-item__question {
+    border-top: none !important;
+}
+
+.interview-prep-question-list-item:hover {
+    background: var(--question-list-item--selected) !important;
+}
+
+.resume-builder-edit-modal__tips-content {
+    background-color: var(--outlet) !important;
+}
+
+.jobs-application-settings {
+    background: var(--strengthen-profile) !important;
+}
+
+.jobs-coworkers-classmates__flavor-label,
+.jobs-coworkers-classmates__header,
+.jobs-coworkers-classmates__flavor-label,
+.jobs-coworkers-classmates__header,
+.jobs-box__html-content p,
+.jobs-description--reformatted .jobs-description__container {
+    color: var(--color-text) !important;
+}
+
+.jobs-home-soho-search-card__new-job-tag,
+.job-card-container__footer-item--highlighted,
+.job-flavors__icon--green7 {
+    color: var(--applications-number) !important;
+}
+
+.theme--mercado .search-reusables__filters-bar-suggested-filters-controls--right::before {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), var(--sticky-header) 76%) !important;
+}
+
+.theme--mercado .search-reusables__filters-bar-suggested-filters-controls--left::before {
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0), var(--sticky-header) 76%) !important;
+}
+
+.peek-carousel-controls__button {
+    color: var(--controls-button) !important;
+}

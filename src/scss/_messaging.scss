@@ -1,0 +1,39 @@
+.msg-conversations-container__convo-item-link.active {
+    box-shadow: var(--message-link-active) !important;
+}
+
+.msg-spinmail-thread__legal-text-content {
+    * {
+        color: var(--t-black-light) !important;
+    }
+}
+
+.msg-group-form__action-buttons-container,
+.msg-group-form__bottom-fixed-section,
+.msg-form__footer,
+.msg-form__msg-content-container--scrollable {
+    background-color: var(--message-input) !important;
+}
+
+// message input color
+.msg-search-form__title-bar-title {
+    .artdeco-button__icon {
+        color: var(--icon-search) !important;
+    }
+}
+
+.theme--mercado .msg-overlay-bubble-header,
+.msg-overlay-bubble-header,
+.msg-conversations-container__title-row,
+.msg-title-bar__title-bar-title {
+    // background: #394b63 !important;#365c8e
+    background: var(--msg-headers) !important;
+}
+
+.msg-title-bar__title-bar-title {
+    border-radius: 0 var(--corner-radius-medium) 0 0 !important;
+}
+
+.msg-conversations-container__title-row {
+    border-radius: var(--corner-radius-medium) 0 0 0 !important;
+}

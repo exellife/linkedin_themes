@@ -1,0 +1,51 @@
+.chart-container {
+    svg {
+        rect.highcharts-background {
+            fill: var(--color-background-container) !important;
+        }
+
+        text {
+            fill: var(--t-black-light) !important;
+        }
+        .highcharts-axis.highcharts-xaxis,
+        .highcharts-grid.highcharts-yaxis-grid {
+            path {
+                stroke: var(--custom-color-1) !important;
+            }
+        }
+
+        .highcharts-point.highcharts-negative.highcharts-color-1 {
+            fill: var(--chart-point-fill) !important;
+            stroke: var(--chart-point-stroke) !important;
+        }
+    }
+}
+
+.jobs-premium-applicant-insights__applicant-location-map::before {
+    background: var(--chart-gradient-1) !important;
+}
+
+.me-wvmp-chart .highcharts-graph,
+.me-wvmp-chart .highcharts-point {
+    stroke: var(--graph-0) !important;
+}
+
+.highcharts-label.highcharts-tooltip {
+    p {
+        color: var(--color-text-dark) !important;
+    }
+}
+
+.theme--mercado .feed-shared-poll-option__winner {
+    background-color: var(--scroll-bar) !important;
+}
+
+.theme--mercado .feed-shared-poll-option__bar-percent {
+    background-color: var(--custom-color-1) !important;
+}
+
+.highcharts-label.highcharts-tooltip.highcharts-color-undefined {
+    * {
+        color: #333;
+    }
+}

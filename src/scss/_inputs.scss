@@ -1,0 +1,29 @@
+/** INPUTS **/
+
+.theme--mercado .msg-search-form__search-field[type="search"],
+.org-jobs-job-search-form-module--prominent .org-jobs-job-search-form-module__typeahead-input,
+.mercado-styling input.iph-widget__search-textbox,
+// .ql-tooltip .ql-link-editor input,
+.theme--mercado input.search-global-typeahead__input,
+.ge-base-flow__form input,
+.jobs-search-box__inner input,
+.jobs-search-box--large .jobs-search-box__inner input {
+    color: #333 !important;
+
+    // li-icon {
+    //     color: #333 !important;
+    // }
+}
+
+.jobs-search-box__input-icon {
+    color: #333 !important;
+}
+
+.org-jobs-job-search-form-module--prominent .org-jobs-job-search-form-module__typeahead-input,
+.theme--mercado .msg-search-form__search-field[type="search"],
+.jobs-search-box__text-input.jobs-search-box__ghost-text-input,
+.search-global-typeahead__search-icon-container,
+.theme--mercado input.search-global-typeahead--focused,
+.theme--mercado input.search-global-typeahead__input {
+    background-color: var(--global-input-search) !important;
+}

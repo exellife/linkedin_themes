@@ -1,0 +1,48 @@
+:root {
+    --t-black-light: hsla(0, 0%, 100%, 0.55);
+    --color-action: #378fe9;
+    --color-border-faint: rgba(0, 0, 0, 0.15);
+}
+
+[theme="dark-gray"] {
+    --color-bckg: #38434f;
+}
+
+[theme="mauve"] {
+    --color-bckg: #523a51;
+    // --t-black-light: hsla(0, 0%, 100%, 0.55);
+    // --color-action: #378fe9;
+}
+
+[theme="camo"] {
+    --color-bckg: #414335;
+    // --t-black-light: hsla(0, 0%, 100%, 0.55);
+    // --color-action: #378fe9;
+}
+.ac__label,
+.ac--inline.ac--inline--active .ac__tooltip,
+#ads-container.SIZE_300_250 {
+    background-color: var(--color-bckg) !important;
+}
+
+*:not(a),
+*:not(input),
+.ta-creative__description-link {
+    color: var(--t-black-light) !important;
+}
+.da-card-creative__button,
+.ta-creative__headline-link,
+.type.exp.legacy.ta__mercado.f17x700_exp_1_2 .ta-creative__description,
+.type.exp.legacy.ta__mercado.f17x700_exp_1_2 .ta-creative__headline,
+.type.exp.legacy.ta__mercado.f17x700_exp_1_2 .ta-creative__headline-link,
+.type.exp.legacy.ta__mercado.f17x700_exp_1_2 .ta-creative__headline-link:visited {
+    color: var(--color-action) !important;
+}
+
+svg {
+    fill: var(--t-black-light) !important;
+}
+
+.type.exp.f300x250_nexp_ncrid_2_v_1_2 .ta-creative:last-child {
+    border-left: 1px solid var(--color-border-faint) !important;
+}

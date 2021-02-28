@@ -1,0 +1,21 @@
+@import "./_gray_theme";
+@import "./_mauve_theme";
+@import "./_camo_theme";
+@import "./scrollbar";
+@import "./app_else";
+@import "./feed";
+@import "./charts";
+@import "./jobs";
+@import "./profile";
+@import "./messaging";
+@import "./colors";
+@import "./inputs";
+
+// should be last, resets some of the links, buttons and other
+// elements to its "orginal-ish" colors
+.global-footer-dropdown__options.artdeco-dropdown__content {
+    .global-footer-dropdown__link:focus,
+    .global-footer-dropdown__link:hover {
+        background-color: var(--voyager-color-background-container-tint-2) !important;
+    }
+}

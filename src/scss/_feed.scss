@@ -1,0 +1,106 @@
+// left side feed
+.profile-rail-card__member-photo {
+    border-color: var(--scroll-bar) !important;
+}
+
+.community-panel-interest-package__header {
+    color: var(--recent) !important;
+}
+// 2 buttons pointing up
+.community-panel-interest-package__expand-collapse-cta-icon.community-panel-interest-package__expand-collapse-cta-icon {
+    color: var(--arrow-up) !important;
+}
+
+// discover more
+.community-panel__discover-cta {
+    border-top: 1px var(--color-border-faint) solid !important;
+}
+
+/** main, middle rail **/
+.feed-shared-contextual-header__info,
+.feed-shared-contextual-header .feed-shared-text-view__hashtag,
+.feed-shared-contextual-header .feed-shared-text-view__mention,
+.feed-shared-creative__text {
+    color: var(--color-text) !important;
+}
+
+.feed-shared-button.feed-shared-footer {
+    border-top: 1px var(--color-border-faint) solid !important;
+}
+
+// .feed-shared-update-v2__description-wrapper--visual-based,
+// .theme--mercado .feed-shared-linkedin-video__description-container,
+// .feed-shared-article--with-small-image,
+// .feed-shared-article--with-large-image .feed-shared-article__description-container {
+//     background: var(--custom-color-0);
+// }
+.global-nav__logo-hoverable,
+.video-detour-v2__edit-content,
+.share-box-footer,
+.image-sharing-detour-container__edit-content {
+    background: var(--color-background-container) !important;
+}
+
+.share-box-footer,
+.feed-shared-article--with-large-image .feed-shared-article__description-container {
+    border-top: 1px solid var(--color-border-faint) !important;
+}
+
+.feed-shared-main-content__mention {
+    color: var(--comments-mention) !important;
+}
+
+.artdeco-dropdown__content--is-open {
+    ul {
+        li:hover {
+            background: var(--dropdown-li) !important;
+        }
+    }
+}
+
+.artdeco-dropdown__content {
+    box-shadow: var(--dropdown-box-shadow) !important;
+}
+
+.artdeco-toast-item {
+    background: var(--toast-item) !important;
+}
+
+.social-details-social-counts {
+    border-bottom: 1px solid var(--color-border-faint) !important;
+}
+
+// see "replay" btn and "replay" counts
+.comments-comment-social-bar__replies-count,
+.comments-comment-social-bar__action-button {
+    color: var(--reply) !important;
+}
+
+// comments input
+.comments-comment-texteditor {
+    background-color: var(--comments-input) !important;
+    border: var(--comments-input-border) !important;
+}
+// comments wrapper background
+.comments-comments-list {
+    background-color: var(--color-background-container) !important;
+}
+
+/** feed right side **/
+.feed-follows-module__tooltip-icon,
+.news-module__notify-icon {
+    color: var(--color-text) !important;
+}
+.feed-shared-control-menu__item:hover {
+    .feed-text-description {
+        * {
+            color: var(--color-text) !important;
+        }
+    }
+}
+
+.comments-see-translation-button__text--blue {
+    color: var(--color-action);
+}
+
+

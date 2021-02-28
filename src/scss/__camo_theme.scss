@@ -1,0 +1,136 @@
+[theme="camo"] {
+    // custom colors
+    --custom-color-0: #5c5f4cd4;
+    --custom-color-1: #313127;
+    --custom-color-2: var(--camo-60);
+    --msg-headers: #646946;
+    // right icon color in the search bar
+    --icon-search: #3a4149;
+    --news-story: #46483c;
+    --global-input-search: #899068;
+
+    --chart-point-fill: var(--msg-headers);
+    --chart-point-stroke: var(--blue-40);
+    // redefined colors
+    --color-checked: var(--system-green-60);
+    --color-checked-2: var(--system-green-50);
+    --color-border: var(--white-a40);
+    --color-action: var(--blue-60);
+    --color-action-2: var(--blue-70);
+    --color-icon: var(--white-a55);
+    --color-signal-positive: var(--color-checked);
+    // text colors
+    --t-black: var(--white-a85);
+    --t-black-light: var(--white-a55);
+    --color-text: var(--white-a70);
+    --color-text-muted: var(--camo-50);
+    --color-text-dark: var(--black-a75);
+
+    --color-teal-0: var(--teal-60);
+
+    // modal background
+    --modal-background: var(--white-a40);
+
+    // scroll-bar
+    --scroll-bar: var(--camo-60);
+
+    --strengthen-profile: linear-gradient(
+        to bottom,
+        var(--color-action),
+        var(--color-action) 4px,
+        var(--camo-60) 4px,
+        var(--camo-70)
+    );
+
+    --strengthen-profile-2: linear-gradient(to bottom, var(--camo-60), var(--camo-70));
+
+    --gradient-jobs-1: linear-gradient(0deg, var(--camo-70), rgba(255, 255, 255, 0) 100%);
+
+    --chart-gradient-1: linear-gradient(to left, rgba(255, 255, 255, 0), #414335be 70%, var(--camo-80));
+
+    --jobs-premium: linear-gradient(to bottom, rgba(255, 255, 255, 0), #414335be 70%, var(--camo-80));
+
+    --add-skill-gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0), #414335be 30%, var(--camo-80));
+
+    --photo-wrapper: 4px solid var(--color-text);
+
+    // buttons and links hover
+    --color-background-none-tint-hover: var(--white-a12);
+
+    // borders
+    --color-border-faint: var(--black-a15);
+
+    // global nav icon color
+    --color-icon-nav: var(--white-a40);
+    --color-icon-nav-active: var(--white-a85);
+    --color-text-low-emphasis: var(--white-a40);
+
+    --color-text-low-emphasis-shift: var(--white-a55);
+
+    /** feed, left side, bottom section **/
+    --recent: var(--white-a40); // made-up
+    --arrow-up: var(--camo-80); // made-up
+
+    /** main rail, middle **/
+    --dropdown-li: var(--white-a06); // made-up
+    --dropdown-box-shadow: 0px 4px 12px var(--black-a45); // made-up
+
+    // comments
+    --voyager-color-background-comment: var(--camo-70);
+    --comments-input: var(--sage-70);
+    --comments-input-border: 1px solid var(--color-border-faint);
+    --comments-content: var(--camo-80);
+    --comments-mention: var(--blue-50);
+    --reply: var(--color-text-low-emphasis-shift);
+
+    // form
+    --form-error: var(--system-red-60);
+
+    // html, body, outlet background
+    --outlet: var(--camo-90); // made-up var(--mauve-90);
+    --color-background-canvas: var(--camo-90);
+    // artdeco-card
+    --color-background-container: var(--camo-80); // var(--mauve-80);
+    --sticky-header: var(--camo-70);
+    --voyager-color-background-container-tint-2: var(--custom-color-0);
+
+    --color-background-brand-accent-4: var(--camo-30);
+
+    // artdeco-card elevation
+    --elevation-lined: 0 0 2px 1px rgb(0 0 0 / 15%), 0 2px 3px rgb(0 0 0 / 20%);
+
+    --language-selection: 0 0 5px var(--color-action, var(--blue-70, #0073b1));
+
+    // interview prep
+    --question-list-item--selected: var(--camo-60);
+
+    // Actively recruiting and number of applications
+    --applications-number: var(--system-green-50);
+
+    --controls-button: var(--white);
+
+    --toast-item: var(--camo-70);
+
+    /** MESSAGING **/
+    --message-input: var(--custom-color-1);
+
+    --message-link-active: 2px 0 0 var(--system-green-50) inset, 0 -1px 0 rgba(255, 255, 255, 0) inset;
+
+    // premium job post, progress and match bases colors
+    --color-brand-accent-4: #aeb48a;
+
+    --color-background-container-tint: var(--custom-color-1);
+
+    // graph colors
+    --graph-0: var(--teal-40);
+
+    --launchpad: var(--camo-70);
+
+    --redish: var(--lavender-80);
+
+    --cool-gray-20: var(--custom-color-0);
+    --warm-gray-20: var(--custom-color-0);
+    --blue-20: var(--custom-color-0);
+
+    --feed-see-more: #575a48;
+}

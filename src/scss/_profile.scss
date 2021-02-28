@@ -1,0 +1,137 @@
+/** PROFILE PAGE **/
+// background photo, photo filter..., bottom 2 parts of modal
+.pe-form-header,
+.pe-detail-featured-list__item,
+.pab-featured-item-detail,
+.pe-detail-featured-list,
+.carousel-header,
+.carousel-body,
+.profile-photo-cropper__actions,
+.photo-filter__footer-button-container {
+    background: var(--color-background-container) !important;
+}
+
+// photo edit button
+.theme--mercado .profile-topcard-background-image-edit__button .icon-wrapper {
+    background: var(--color-background-container) !important;
+}
+
+// profile edit modal
+
+.pe-form-footer__actions,
+.pe-form-body__content,
+.carousel-form .carousel-header,
+.pe-form-body {
+    background: var(--color-background-container) !important;
+}
+.ge-base-flow__task-card,
+.ge-skills-checkbox-list__item {
+    background: var(--color-background-container) !important;
+    border-bottom: 1px solid var(--color-border-faint) !important;
+}
+.pv-recommendations__flow-header,
+.theme--mercado .ge-form-header,
+.pe-osmosis-section,
+.osmosis-toggle {
+    background: var(--voyager-color-background-comment) !important;
+}
+
+.pe-form-field__error-message {
+    border-color: var(--form-error) !important;
+}
+
+// add skill modal
+.pe-secondary-language-form__info-section,
+.info-not-shared,
+.pv-skills__category-title {
+    background-color: var(--custom-color-1) !important;
+}
+.pv-skills__category-list-item {
+    background: var(--color-background-container) !important;
+}
+
+// Strengthen your profile section
+.theme--mercado .pv-dashboard-section,
+.theme--mercado .pds-ge-entry-card__card {
+    background: var(--strengthen-profile) !important;
+}
+
+.pv-browsemap-section__member-cta-button {
+    box-shadow: inset 0 0 0 1px var(--color-text);
+}
+
+.pv-pymk-section__show-cta,
+.pv-browsemap-section__show-cta,
+.pe-form-footer__actions {
+    border-top: 1px solid var(--color-border-faint) !important;
+}
+.pe-co-contributor,
+.pe-hub-card,
+.pe-hub-drawer,
+.pv-pymk-section__member-container::after,
+.pv-browsemap-section__member-container-line::after {
+    border-bottom: 1px solid var(--color-border-faint) !important;
+}
+
+.premium-mp-header__profile-picture,
+.organization-outlet .org-top-card-primary-content__logo,
+.pv-recent-activity-top-card__member-photo,
+.pv-top-card__photo-wrapper {
+    border-color: var(--scroll-bar) !important;
+}
+
+.artdeco-pagination__indicator--dot.selected,
+.artdeco-pagination__indicator--dot.selected:focus,
+.artdeco-pagination__indicator--dot.selected:hover {
+    background: var(--color-text) !important;
+}
+
+.org-life-target-selection-tabs__tab {
+    background: var(--color-background-container) !important;
+    box-shadow: var(--elevation-lined) !important;
+}
+
+.ge-suggested-skills-flow__container::after {
+    background: var(--add-skill-gradient) !important;
+}
+
+.vb-visibility-dropdown__title--is-required::after,
+.fb-form-element-label__title--is-required::after {
+    color: var(--color-action) !important;
+}
+
+.artdeco-dropdown__item.artdeco-dropdown__item--is-dropdown:hover {
+    // background-color: var(--voyager-color-background-container-tint-2) !important;
+
+    li {
+        background: transparent !important;
+    }
+}
+.pv-entity__fading-timeline .pv-entity__fading-timeline-node::after,
+.pv-entity__timeline-node,
+.pv-entity__role-details-container--timeline::before {
+    background: var(--scroll-bar) !important;
+}
+.pv-entity__timeline-node {
+    border: 2px solid var(--scroll-bar) !important;
+}
+
+.pv-entity__fading-timeline-node {
+    height: 0 !important;
+    width: 0 !important;
+}
+
+.pv-entity__fading-timeline-gradient {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, var(--color-background-container) 80%) !important;
+}
+
+.pv-about__summary-text .lt-line-clamp__ellipsis::before {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), var(--color-background-container)) !important;
+}
+.pe-secondary-language-form__info-section,
+.interests-view-all.interests-view-all.interests-view-all .entity-list-item::after,
+.pv-interests-list.pv-interests-list.pv-interests-list .entity-list-item::after {
+    border-bottom: 1px solid var(--color-border-faint) !important;
+}
+
+// border: 2px solid var(--warm-gray-40,#cfcfcf)

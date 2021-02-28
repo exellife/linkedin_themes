@@ -1,0 +1,249 @@
+.artdeco-typeahead__results-list,
+option,
+.news-daily-rundown,
+.authentication-outlet {
+    background-color: var(--outlet) !important;
+}
+
+/** SEARCH(s) DROPDOWNS **/
+.jobs-search-box__search-starter {
+    * {
+        color: var(--color-text) !important;
+    }
+}
+
+.basic-typeahead__triggered-content {
+    background-color: var(--outlet) !important;
+    .basic-typeahead__selectable {
+        background-color: var(--outlet) !important;
+        border-color: var(--color-border-faint) !important;
+    }
+
+    // > div {
+
+    // }
+
+    .basic-typeahead__selectable:hover {
+        > div {
+            background-color: var(--voyager-color-background-container-tint-2) !important;
+            > div {
+                background-color: var(--voyager-color-background-container-tint-2) !important;
+            }
+        }
+        > .jobs-search-box__search-starter {
+            background-color: var(--voyager-color-background-container-tint-2) !important;
+        }
+    }
+
+    .basic-typeahead__selectable--active {
+        > div {
+            background-color: var(--voyager-color-background-container-tint-2) !important;
+            > div {
+                background-color: var(--voyager-color-background-container-tint-2) !important;
+            }
+        }
+        > .jobs-search-box__search-starter {
+            background-color: var(--voyager-color-background-container-tint-2) !important;
+        }
+    }
+}
+
+@include _scroll-bar("*", var(--scroll-bar));
+
+// global-nav
+.global-nav {
+    box-shadow: var(--elevation-lined) !important;
+}
+
+// modal backgrounds
+.modal-wormhole .modal-wormhole-overlay,
+.shared-modal-overlay,
+.artdeco-modal-overlay--is-top-layer {
+    background: var(--modal-background) !important;
+}
+
+.carousel-header-back {
+    li-icon svg[data-supported-dps="24x24"] {
+        fill: var(--t-black-light) !important;
+    }
+}
+
+.community-panel-interest-package__header-link {
+    color: var(--color-action) !important;
+}
+
+/** feed, left side, bottom section **/
+
+/** MY NETWORK PAGE **/
+.mn-summary-card-notification {
+    background: var(--strengthen-profile-2) !important;
+}
+
+// connections
+
+.entity-result__insights.t-12 {
+    .entity-result__simple-insight-text-container {
+        color: var(--t-black-light) !important;
+    }
+
+    .entity-result__simple-insight a,
+    li-icon {
+        color: var(--color-text) !important;
+    }
+}
+
+/*** WHO VIEWED YOUR PROFILE ***/
+.theme--mercado .me-wvmp-pills-tab:not(.me-wvmp-pills-tab--active) {
+    background-color: var(--custom-color-1) !important;
+    box-shadow: none !important;
+}
+
+.me-wvmp-viewer-card__check-icon,
+.me-wvmp-viewer-card__success-text {
+    color: var(--color-checked-2) !important;
+}
+
+.pv-browsemap-section__member-cta-button {
+    box-shadow: inset 0 0 0 1px var(--color-text) !important;
+}
+
+.pv-browsemap-section__member-cta-button:hover {
+    box-shadow: inset 0 0 0 2px var(--color-text) !important;
+}
+
+.theme--mercado .org-page-create-preview__viewport {
+    background-color: var(--custom-color-2) !important;
+}
+
+.premium-accent-bar {
+    background: linear-gradient(180deg, var(--premium-color-brand) 4px, var(--color-background-container) 0) !important;
+}
+
+.legacy-switcher-plan__plan-name--blue {
+    color: var(--color-action-2) !important;
+}
+
+.launchpad {
+    background: var(--launchpad) !important;
+}
+
+.sar-report__horizontal-divider {
+    background-color: var(--color-border-faint) !important;
+}
+
+//  {
+//     h3 {
+//         color: var(--t-black) !important;
+//     }
+//     dd {
+//         color: var(--t-black-light) !important;
+//     }
+// }
+
+.artdeco-dropdown__content {
+    li {
+        * {
+            color: var(--t-black-light) !important;
+        }
+    }
+}
+
+.tb-featured-members-module__card .profile-info-list,
+.profile-info-list {
+    h3 {
+        color: var(--t-black) !important;
+    }
+    dd {
+        color: var(--t-black-light) !important;
+    }
+}
+
+.reader-social-bar-v2__sticky-container.is-stuck > :first-child::before {
+    box-shadow: -48px -7px 0 -1px var(--color-background-container), 48px -7px 0 -1px var(--color-background-container) !important;
+    background: var(--color-background-container) !important;
+}
+
+article.reader__content {
+    h3,
+    h2,
+    ol,
+    p {
+        color: var(--t-black-light) !important;
+    }
+    ul {
+        * {
+            color: var(--t-black-light) !important;
+        }
+    }
+
+    strong {
+        color: var(--color-text) !important;
+    }
+}
+
+.mn-abi-form-v2__provider-btn {
+    li-icon {
+        color: var(--color-text) !important;
+    }
+}
+
+.interview-prep-assessments__question-list-item--selected:first-child {
+    border-top: 1px solid var(--warm-gray-30, #e6e9ec);
+}
+
+.news-storyline__info-card,
+.theme--mercado .news-storyline__update-outlet {
+    background: var(--news-story) !important;
+}
+.search-filters-bar__suggested-filters .search-s-facet__values,
+div[role="dialog"].artdeco-modal.artdeco-modal--layer-default {
+    overflow: hidden;
+}
+
+.org-typeahead-input__header-text,
+.mn-summary-card-notification__cta:hover {
+    background: var(--msg-headers) !important;
+}
+
+.global-footer--static {
+    border-color: var(--t-black-light) !important;
+}
+
+.org-jobs-job-search-form-module__input-wrapper,
+.org-product-section__edit-cta {
+    background-color: transparent !important;
+}
+
+.peek-carousel-controls__button,
+.org-product-section__edit-cta .artdeco-button--circle.artdeco-button--1,
+.org-product-top-card__logo-edit-button.org-product-top-card__logo-edit-button.org-product-top-card__logo-edit-button,
+.img-edit-button--circle-edge .img-edit-button__dropdown .artdeco-button--1.artdeco-button--circle {
+    background-color: var(--color-background-container) !important;
+}
+
+.org-product-edit-modal__tab--highlighted,
+.org-product-section__incomplete-item {
+    background-color: var(--redish) !important;
+}
+
+.pv-endorsement-followup__radio-button.pv-endorsement-followup__radio-button label {
+    outline: var(--outlet) solid 2px !important;
+}
+
+.search-global-typeahead__search-icon-container {
+    border-radius: var(--corner-radius-small) !important;
+}
+
+.interview-prep-question-list-item--selected {
+    background-color: var(--custom-color-1) !important;
+}
+
+.groups-listing__tab-inset-outline:focus {
+    outline: none;
+}
+
+.feed-shared-update-v2__description-wrapper--visual-based
+    .feed-shared-inline-show-more-text
+    .feed-shared-inline-show-more-text__see-more-less-toggle {
+    background-color: var(--feed-see-more) !important;
+}

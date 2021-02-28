@@ -1,0 +1,437 @@
+// :root {
+//     --warm-gray-20: ${styles.bg_4};
+//     --warm-gray-30: ${styles.gray_replace};
+//     --warm-gray-40: ${styles.gray_replace};
+    
+//     --color-background-faint-active: ${styles.bg_1};
+
+//     --color-text: ${styles.t_black_light};
+//     --color-background-container: ${styles.bg_0};
+//     --voyager-color-background-comment: ${styles.input_bg};
+
+//     --color-border-faint: ${styles.gray_replace};
+
+//     --color-text-low-emphasis-shift: ${styles.t_black_light};
+
+//     --color-icon-nav-active: ${styles.t_black};
+//     --black-a60: ${styles.t_black_light};
+
+//     --color-background-none-tint-hover: ${styles.bg_1};
+
+//     --color-icon: ${styles.t_black_light};
+// }
+
+// html, body {
+//     background-color: ${styles.bg_1}!important;
+// }
+
+// #app__container,
+// .page--is-mercado-theme-enabled:not(.page--is-mobile) {
+//     background-color: ${styles.bg_1}!important;
+// }
+
+// .page--is-mercado-theme-enabled .main__subtitle {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .main__sign-in-container,
+// .page--is-mercado-theme-enabled .third-party-join__or-span,
+// .join-form__form-body-agreement,
+// .page--is-mercado-theme-enabled .input__label {
+//     color: #333!important;
+// }
+
+// .footer__base .footer__base__nav-list a {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// button,
+// input {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .page--is-mercado-theme-enabled .input__input {
+//     color: #222!important;
+// }
+
+// .authentication-outlet {
+//     background-color: ${styles.bg_1};
+// }
+
+// .link-without-visited-state:not(:hover).t-black--light {
+//     color: #676767!important;
+// }
+
+// .publishing-page, .zen-nav {
+//     background: #4c4c4c!important;
+// }
+
+// .org-sticky-top-card--is-showing,
+// .org-page-navigation--horizontal {
+//     background-color: ${styles.grey_blue_1}!important;
+// }
+
+
+// .theme--mercado .pv-accomplishments-block__title,
+// .theme--mercado .pv-accomplishments-block__count {
+//     color: ${styles.accomplishments};
+// }
+
+// .pv-skill-entity__highlight-link:hover {
+//     color: ${styles.t_black_light}!important;
+//     text-decoration: underline!important;
+// }
+
+// .pv-skill-entity__highlight-link:visited {
+//     color: #0a66c2!important;
+// }
+
+// .pv-certification-entity .pv-certifications-entity__credential-link,
+// .pv-certification-entity .pv-certifications-entity__credential-link:visited,
+// .artdeco-button--circle .artdeco-button__icon,
+// .artdeco-container-card .card-heading {
+//     color: ${styles.t_black_light};
+// }
+
+// .artdeco-pagination__indicator--number.selected button {
+//     background-color: ${styles.grey_blue_1}!important;
+// }
+
+// .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__card-item,
+// .pv-entity__position-group-pager {
+//     background-color: ${styles.bg_0}!important;
+// }
+
+// .theme--mercado .social-details-first-prompt-block {
+//     background-color: #47659261!important;
+// }
+
+// .theme--mercado .comments-highlighted-comment-item__show-more-text .see-more {
+//     background-color: ${styles.input_bg}!important;
+// }
+
+
+// .theme--mercado .feed-shared-linkedin-video__sponsored-description-container {
+//     background-color: ${styles.bg_2}!important;
+// }
+
+// .theme--mercado .feed-shared-linkedin-video__description-container--learning,
+// .feed-shared-article__description-container,
+// .theme--mercado .feed-shared-linkedin-video__description-container,
+// .theme--mercado .feed-shared-external-video__meta,
+// .feed-shared-article--with-no-image,
+// .feed-shared-article--with-small-image {
+//     background-color: ${styles.bg_2}!important;
+// }
+
+// .t-black {
+//     color: ${styles.t_black}!important;
+// }
+
+// .t-black--light {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .label-20dp-alert {
+//     color: #000!important;
+// }
+
+// .profile-rail-card__member-photo {
+//     border: 2px solid ${styles.t_black_light}!important;
+// }
+
+// .feed-shared-inline-show-more-text .feed-shared-inline-show-more-text__see-more-less-toggle {
+//     background-color: ${styles.bg_0};
+// }
+
+// .feed-shared-update-v2--minimal-padding .feed-shared-update-v2__commentary {
+//     font-size: 1.4rem;
+//     line-height: 1.42857;
+//     font-weight: 400;
+//     color: ${styles.t_black_light};
+// }
+
+// .large-header, .large-text, .medium-text, .small-text, blockquote, body, h1, h2, h3, h4, h5, p {
+//     color: ${styles.t_black_light};
+// }
+
+// .feed-shared-creative__text, .feed-shared-header__text-view a {
+//     color: ${styles.t_black_light};
+//     font-weight: 600;
+// }
+
+// .feed-shared-update-v2__description-wrapper--visual-based .feed-shared-inline-show-more-text .feed-shared-inline-show-more-text__see-more-less-toggle,
+// .feed-shared-update-v2__description-wrapper--visual-based {
+//     background: ${styles.grey_blue_4};
+// }
+
+// .comments-comments-list {
+//     background-color: ${styles.bg_0};
+// }
+
+
+// .comments-comment-texteditor {
+//     background: ${styles.input_bg};
+// }
+
+// .comments-comment-box-comment__text-editor .ql-editor::placeholder {
+//     color: rgb(156, 40, 40);
+// }
+
+// .ql-editor p {
+//     color: ${styles.input_text_color};
+// }
+
+// .presence-entity__indicator {
+//     position: absolute;
+//     box-shadow: none;
+// }
+
+// .feed-shared-call-to-action__link {
+//     background-color: ${styles.bg_0};
+// }
+
+// .feed-shared-contextual-header__info,
+// .community-panel__discover-cta:visited,
+// .community-panel-interest-package__cta,
+// .community-panel-interest-package__entity-link.community-panel-interest-package__entity-link {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .feed-shared-contextual-header .feed-shared-text-view__hashtag, .feed-shared-contextual-header .feed-shared-text-view__mention,
+// .community-panel-interest-package__header {
+//     color: ${styles.t_black}!important;
+// }
+
+// .link-without-visited-state:not(:hover).t-black {
+//     color: ${styles.t_black};
+// }
+
+
+// .feed-follows-module__tooltip-icon {
+//     color: ${styles.t_black_light};
+// }
+
+// .news-module__notify-icon {
+//     color: inherit;
+// }
+
+// .hoverable-link-text.hoverable-link-text[disabled] {
+//     color: ${styles.t_black_light};
+// }
+
+// button.comments-comment-social-bar__action-button {
+//     color: ${styles.t_black_light};
+// }
+
+// button.community-panel-interest-package__expand-collapse-cta-icon.community-panel-interest-package__expand-collapse-cta-icon {
+//     color: ${styles.t_black_light};
+// }
+
+// button.community-panel-interest-package__section-header:hover .community-panel-interest-package__expand-collapse-cta-icon {
+//     color: ${styles.t_black_light};
+// }
+
+// button.community-panel-interest-package__event-cta.community-panel-interest-package__event-cta {
+//     margin-right: 4px;
+//     color: ${styles.t_black_light};
+// }
+
+// .community-panel__discover-cta {
+//     color: ${styles.t_black_light};
+// }
+
+
+// .artdeco-dropdown__content--placement-bottom.artdeco-dropdown__content--justification-right {
+//     background-color: ${styles.bg_2}!important;
+// }
+
+// .artdeco-modal-overlay--is-top-layer {
+//     background-color: ${styles.bg_3}!important;
+// }
+
+// .artdeco-modal__header h1, .artdeco-modal__header h2, .artdeco-modal__header h3, .artdeco-modal__header h4, .artdeco-modal__header h5, .artdeco-modal__header h6 {
+//     color: ${styles.t_black_light};
+// }
+
+// .artdeco-entity-lockup__title {
+//     color: ${styles.t_black_light};
+// }
+
+// .artdeco-modal__content .editor-content.ql-container .ql-editor.ql-blank::before {
+//     color: #333!important;
+// }
+
+// .artdeco-toast-item {
+//     background-color: ${styles.grey_blue_1}!important;
+// }
+
+// .profile-photo-cropper__actions,
+// .photo-filter__footer-button-container {
+//     background-color: ${styles.bg_0}!important;
+// }
+
+// .basic-typeahead__triggered-content {
+//     background-color: ${styles.bg_2}!important;
+// }
+
+
+// .theme--mercado .jobs-home-soho--mercado-theme {
+//     background-color: ${styles.bg_2}!important;
+// }
+
+// .nt-settings-summary {
+//     background-color: ${styles.bg_2}!important;
+// }
+
+
+// .theme--mercado .msg-overlay-bubble-header {
+//     background-color: #2e547d!important;
+// }
+
+// .msg-overlay-list-bubble-search,
+// .msg-overlay-list-bubble__content--scrollable {
+//     background: ${styles.bg_4};
+// }
+
+// .msg-overlay-bubble-header {
+//     border-bottom: 1px solid ${styles.bg_1}!important;
+// }
+
+
+// .msg-s-message-list-container,
+// .msg-form__msg-content-container--scrollable,
+// .theme--mercado .msg-form__footer {
+//     background: ${styles.bg_4}!important;
+// }
+// .msg-overlay-conversation-bubble__content-wrapper {
+//     background: ${styles.bg_4}!important;
+// }
+
+
+// .theme--mercado .msg-conversations-container__convo-item-link.active {
+//     background-color: #313e4a!important;
+//     box-shadow: none!important;
+// }
+
+// .EntityLockup-circle-2 dd:not(.badge),
+// .EntityLockup-circle-2 dt h2 {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .msg-s-thread-actions-tray__item {
+//     background: ${styles.grey_blue_1}!important;
+// }
+
+// .msg-s-profile-card .profile-card-one-to-one__profile-link,
+// .artdeco-entity-lockup__badge,
+// .artdeco-entity-lockup__subtitle {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .msg-form__msg-content-container .msg-form__contenteditable p {
+//     color: ${styles.input_text_color}!important;
+// }
+
+// .job-card-container__metadata-item,
+// .job-card-container__company-name {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .theme--mercado .pds-ge-entry-card__card {
+//     ${styles.bg_radial_0};
+// }
+
+// .theme--mercado .pv-dashboard-section {
+//     ${styles.bg_radial_1}!important;
+// }
+
+// .pv-profile-sticky-header--is-showing {
+//     background: ${styles.grey_blue_1}!important;
+// }
+
+// .interview-prep-welcome-modal__notifications,
+// .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__card-item-v2 {
+//     background: ${styles.bg_0}!important;
+// }
+
+// linkedin-logo .logo-text,
+// .artdeco-entity-lockup__metadata,
+// .pv-profile-info-section-button__button-icon,
+// .distance-badge,
+// .actor-name-with-distance,
+// .pv-dashboard-section__cta-icon {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .theme--mercado .poc-opportunities-carousel .artdeco-carousel__slider li:first-of-type .display-flex.justify-space-between {
+//     background: ${styles.bg_2}!important;
+//     border-top-left-radius: var(--corner-radius-medium);
+//     border-top-right-radius: var(--corner-radius-medium);
+// }
+
+
+// .mn-suggester__carousel-wrapper .artdeco-carousel {
+//     background: ${styles.grey_blue_3}!important;
+// }
+
+// .share-content-type-button {
+//     background: ${styles.grey_blue_2}!important;
+// }
+
+// .share-box-modal-content__container,
+// .image-sharing-detour-container__edit-content,
+// .theme--mercado .share-box-footer {
+//     background: ${styles.bg_0}!important;
+// }
+
+// .pv-top-card__photo-wrapper, 
+// .theme--mercado .pv-top-card__edit-photo {
+//     background: none!important;
+// }
+
+// .pv-top-card__photo-wrapper {
+//     border: 3px solid ${styles.grey_blue_2}!important;
+// }
+
+// .container-with-shadow,
+// .search-reusables__filters-bar-grouping {
+//     background: ${styles.grey_blue_1}!important;
+// }
+
+// .search-reusables__vertical-select-trigger {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .entity-result__title-text--black a, .entity-result__title-text--black a:visited {
+//     color: ${styles.t_black}!important;
+// }
+
+// .search-results-container .entity-result__insights,
+// .entity-result__summary strong,
+// .entity-result__simple-insight a,
+// .entity-result__simple-insight {
+//     color: ${styles.t_black_light}!important;
+// }
+
+// .search-results__cluster-bottom-banner,
+// .entity-result__divider {
+//     border-top: 1px solid ${styles.bg_1}!important;
+// }
+
+// .reusable-search-show-more-link.reusable-search-show-more-link {
+//     background: ${styles.bg_0}!important;
+// }
+
+// .reusable-search__result-container:first-child .entity-result .entity-result__divider {
+//     border-top: none!important;
+// }
+
+// .entity-result__embedded-object {
+//     background: ${styles.grey_blue_2}!important;
+// }
+
+// .invitation-card--new-invite {
+//     background: ${styles.grey_blue_1}!important;
+// }
+

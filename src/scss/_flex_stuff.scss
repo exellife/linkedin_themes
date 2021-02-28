@@ -1,0 +1,14 @@
+
+@mixin flex-row {
+    display: flex!important;
+    flex-direction: row!important;
+}
+
+@mixin flex-col {
+    display: flex!important;
+    flex-direction: column!important;
+}
+
+@mixin align-center {
+    align-items: center!important;
+}
